@@ -8,7 +8,7 @@ using System;
 public class VrMode : MonoBehaviour
 {
 
-    Camera cam;
+    public Camera cam;
     public GameObject MenuCanvas;
 
     // Start is called before the first frame update
