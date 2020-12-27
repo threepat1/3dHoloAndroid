@@ -24,8 +24,7 @@ public class VrMode : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                if (XRSettings.enabled == true) { 
-                   cam.transform.position = new Vector3(-1, 1, -1);
+                if (XRSettings.enabled == true) {               
                    BackTo2D();
                 }
                 if (XRSettings.enabled == false) { Application.Quit(); }
@@ -103,6 +102,7 @@ public class VrMode : MonoBehaviour
     }
     public void StartVRMode()
     {
+        cam.transform.position =  new Vector3(-1f, 1f, -1f);
         MenuCanvas.SetActive(false);
         StartCoroutine(SwitchToVR());
     }

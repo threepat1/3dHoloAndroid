@@ -98,7 +98,7 @@ MonoBehaviour:
     value: 114
   sampleCount:
     overrideState: 1
-    value: 9
+    value: 6
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

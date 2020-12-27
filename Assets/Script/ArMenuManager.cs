@@ -7,6 +7,10 @@ public class ArMenuManager : MonoBehaviour
 {
     public string mainScene;
 
+    void Update()
+    {
+        Screen.orientation = ScreenOrientation.AutoRotation;
+    }
   
   
     public void GoToMain()
