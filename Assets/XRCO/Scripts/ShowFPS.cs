@@ -31,13 +31,13 @@ public class ShowFPS : MonoBehaviour
         }
     }
 
-    void OnGUI()
-    {
-        GUIStyle style = new GUIStyle
-        {
-            fontSize = 50
-        };
+    //void OnGUI()
+    //{
+    //    GUIStyle style = new GUIStyle
+    //    {
+    //        fontSize = 50
+    //    };
 
-        GUI.Label(new Rect(30, 30, 100, 30), fps.ToString(), style);
-    }
+    //    GUI.Label(new Rect(30, 30, 100, 30), fps.ToString(), style);
+    //}
 }

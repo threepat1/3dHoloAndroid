@@ -747,7 +747,11 @@ namespace prometheus
         private void Awake()
         {
             CleanMesh();
-           sourceUrl = PlayerPrefs.GetString("model");
+            sourceUrl = PlayerPrefs.GetString("model");
+            if(sourceUrl == "")
+            {
+                sourceUrl = "TestMesh.mp4";
+            }
         }
 
         private void Start()
